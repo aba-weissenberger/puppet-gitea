@@ -10,8 +10,8 @@ gitea::group: 'git'
 gitea::home: ~
 gitea::proxy: ~
 gitea::base_url: 'https://dl.gitea.io/gitea'
-gitea::version: '1.8.1'
-gitea::checksum: 'cc985b7947cdd50cb47a68bbb51e3a8519d0d2710a9696255928ae9912dca598'
+gitea::version: '1.9.1'
+gitea::checksum: '2afe85726227e0c742ae73bb40fc49c61cf7e32b9992edb0b439a6e866699fb7'
 gitea::checksum_type: 'sha256'
 gitea::installation_directory: '/opt/gitea'
 gitea::repository_root: '/var/lib/gitea'
