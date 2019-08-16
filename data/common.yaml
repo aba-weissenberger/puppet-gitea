@@ -8,12 +8,13 @@ gitea::manage_home: true
 gitea::owner: 'git'
 gitea::group: 'git'
 gitea::home: ~
+gitea::proxy: ~
 gitea::base_url: 'https://dl.gitea.io/gitea'
 gitea::version: '1.8.1'
 gitea::checksum: 'cc985b7947cdd50cb47a68bbb51e3a8519d0d2710a9696255928ae9912dca598'
 gitea::checksum_type: 'sha256'
 gitea::installation_directory: '/opt/gitea'
-gitea::repository_root: '/var/git'
+gitea::repository_root: '/var/lib/gitea'
 gitea::log_directory: '/var/log/gitea'
 gitea::attachment_directory: '/opt/gitea/data/attachments'
 gitea::lfs_enabled: false
@@ -24,3 +25,4 @@ gitea::service_template: 'gitea/systemd.erb'
 gitea::service_path: '/lib/systemd/system/gitea.service'
 gitea::service_provider: 'systemd'
 gitea::service_mode: '0644'
+gitea::robots_txt: ~
